@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <application android:allowBackup="true" android:icon="@mipmap/appicon" android:label="@string/app_name" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
+    
+    <!-- NotificationListenerService for capturing WhatsApp messages -->
+    <service
+        android:name=".Services.MessagesNotificationListener"
+        android:label="WhatsApp Message Capture"
+        android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE"
+        android:exported="true">
+      <intent-filter>
+        <action android:name="android.service.notification.NotificationListenerService" />
+      </intent-filter>
+    </service>
+    
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+</manifest>

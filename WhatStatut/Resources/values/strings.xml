@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WhatStatut</string>
+    <string name="app_text">WhatsApp Status Tracker</string>
+    <string name="menu_messages">Messages</string>
+    <string name="menu_capture_messages">Capture messages</string>
+    <string name="menu_notification_access">Notification access</string>
+    <string name="menu_clear_messages">Clear all messages</string>
+    <string name="empty_state_message">No captured messages yet.\n\nTo capture WhatsApp messages:\n1. Enable notification access in settings\n2. Enable the \"Capture messages\" toggle in the menu</string>
+    <string name="privacy_dialog_title">Privacy Notice</string>
+    <string name="privacy_dialog_message">WhatsApp Message Capture:\n\nThis feature captures WhatsApp messages from system notifications and stores them locally on your device. No data is sent to any server or external service.\n\nLimitations:\n- Only captures messages from notifications\n- No media content (images, videos, etc.)\n- No past messages\n- Does not decrypt WhatsApp databases\n\nYou can disable capture and clear all stored messages at any time from the app menu.\n\nThis is for educational purposes only.</string>
+    <string name="privacy_dialog_ok">I Understand</string>
+    <string name="capture_enabled">Message capture enabled</string>
+    <string name="capture_disabled">Message capture disabled</string>
+    <string name="messages_cleared">All messages cleared</string>
+    <string name="notification_access_required">Please grant notification access in settings</string>
+</resources>
