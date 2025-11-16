@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WhatStatut</string>
+    <string name="no_statuses_found">No WhatsApp statuses found</string>
+    <string name="permission_denied">Storage permission is required to view statuses</string>
+    <string name="action_preview">Preview</string>
+    <string name="action_save">Save Copy</string>
+    <string name="action_share">Share</string>
+    <string name="saved_successfully">Saved to %1$s</string>
+    <string name="save_failed">Failed to save file</string>
+    <string name="choose_action">Choose an action</string>
+</resources>

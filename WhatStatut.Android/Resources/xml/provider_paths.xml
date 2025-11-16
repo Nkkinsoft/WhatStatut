@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+  <!-- External files directory (for saved copies) -->
+  <external-files-path name="saved_media" path="." />
+  
+  <!-- Path to WhatsApp status directories (for sharing/preview) -->
+  <external-path name="whatsapp_statuses" path="Android/media/com.whatsapp/WhatsApp/Media/.Statuses" />
+  <external-path name="whatsapp_statuses_legacy" path="WhatsApp/Media/.Statuses" />
+  <external-path name="whatsapp_business_statuses" path="Android/media/com.whatsapp.w4b/WhatsApp Business/Media/.Statuses" />
+</paths>
